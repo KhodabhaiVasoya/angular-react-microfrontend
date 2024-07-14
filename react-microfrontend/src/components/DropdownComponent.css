@@ -1,0 +1,38 @@
+/* Dropdown Container */
+.dropdown-container {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+/* Custom Class for PrimeReact Dropdown */
+.p-dropdown-custom {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+}
+
+/* Custom styles for dropdown menu */
+.p-dropdown-custom .p-dropdown-panel {
+    font-family: 'Arial', sans-serif;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom styles for dropdown items */
+.p-dropdown-custom .p-dropdown-item {
+    color: #333333;
+}
+
+/* Custom styles for selected item */
+.p-dropdown-custom .p-dropdown-label {
+    color: #333333;
+}
+
+/* Custom styles for dropdown placeholder */
+.p-dropdown-custom .p-placeholder {
+    color: #999999;
+}
+
+/* Custom styles for dropdown arrow */
+.p-dropdown-custom .p-dropdown-trigger {
+    color: #666666;
+}

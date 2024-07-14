@@ -1,0 +1,71 @@
+/* Grid Container */
+.grid-container {
+  font-family: 'Arial', sans-serif;
+  margin: 20px;
+}
+
+/* Table Styles */
+.grid-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.grid-table th, .grid-table td {
+  border: 1px solid #dddddd;
+  padding: 12px;
+  text-align: left;
+  cursor: pointer; /* Add cursor pointer to indicate clickable headers */
+}
+
+.grid-table th {
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.grid-table th span {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.grid-table td {
+  background-color: #ffffff;
+  transition: background-color 0.3s ease; /* Smooth transition on background color */
+}
+
+.grid-table tr:hover td {
+  background-color: #f2f2f2; /* Lighter background color on hover */
+}
+
+/* Pagination Styles */
+.pagination {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.pagination button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /* Smooth transition on background color */
+}
+
+.pagination button:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
+.pagination button:disabled {
+  background-color: #dddddd;
+  color: #aaaaaa;
+  cursor: not-allowed;
+}
